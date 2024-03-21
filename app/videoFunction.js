@@ -11,7 +11,7 @@ export default class VidTest extends React.Component {
         event.target.pauseVideo();
     }
     render() {
-        const videoId = '2fmo1Sjn7dg';
+        const videoId = 'UBS4Gi1y_nc';
         const opts = {
 
             height: '390',
