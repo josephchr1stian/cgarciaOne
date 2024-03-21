@@ -13,7 +13,6 @@ export default class VidTest extends React.Component {
     render() {
         const videoId = 'UBS4Gi1y_nc';
         const opts = {
-
             height: '390',
             width: '640',
             playerVars: {
