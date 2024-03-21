@@ -1,8 +1,11 @@
 
 
 import React from "react";
-import {Twitter} from "next/dist/lib/metadata/types/twitter-types";
-import {TwitterMetadata} from "next/dist/lib/metadata/generate/opengraph";
+//import YouTube from "react-youtube";
+import VidTest from "@/app/videoFunction";
+//import { YouTubeEmbed } from '@next/third-parties/google'
+//import {Twitter} from "next/dist/lib/metadata/types/twitter-types";
+//import {TwitterMetadata} from "next/dist/lib/metadata/generate/opengraph";
 
 
 function MyButton() {
@@ -22,17 +25,13 @@ function Linkdin() {
 }
 export default function Home() {
   return (
-
       <div className="relative...">
           <h1 className="bg-white  text-slate-800 text-0 font-bold py-5 px-10  text-right"> Welcome </h1>
-          <div className="flex items-center flex-row ">
-            <p className= "bg-transparent py-80 px-80"> </p>
-            < MyButton />
-
-            <Linkdin/>
-
+          <div className="flex items-center flex-col py-2 ">
+             <p className= "bg-transparent py-30 px-80"> </p>
+              <VidTest /> <p className= "bg-transparent py-5"> </p>
+              < MyButton /> <p className= "bg-transparent py-5"> </p> <Linkdin/>
           </div>
       </div>
-
   );
 }
