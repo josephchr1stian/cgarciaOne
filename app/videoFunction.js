@@ -11,7 +11,7 @@ export default class VidTest extends React.Component {
         event.target.pauseVideo();
     }
     render() {
-        const videoId = 'UBS4Gi1y_nc';
+
         const opts = {
             height: '390',
             width: '640',
@@ -20,7 +20,7 @@ export default class VidTest extends React.Component {
                 autoplay: 1,
             },
         };
-        return (<YouTube videoid = {videoId} opts={opts} onReady={this._onReady} />);
+        return (<YouTube videoId = "UBS4Gi1y_nc" opts={opts} onReady={this._onReady} />);
     }
 
     function
