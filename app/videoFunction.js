@@ -20,7 +20,7 @@ export default class VidTest extends React.Component {
                 autoplay: 1,
             },
         };
-        return (<YouTube videoId = "UBS4Gi1y_nc" opts={opts} onReady={this._onReady} />);
+        return (<YouTube videoId = "q86g1aop6a8" opts={opts} onReady={this._onReady} />);
     }
 
     function
