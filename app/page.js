@@ -26,7 +26,7 @@ function Linkdin() {
 export default function Home() {
   return (
       <div className="relative...">
-          <h1 className="bg-white  text-slate-800 text-0 font-bold py-5 px-10  text-right"> Welcome </h1>
+          <h1 className="bg-white  text-slate-800 text-0 font-bold py-5 px-10  text-right"> Christian Garcia </h1>
           <div className="flex items-center flex-col py-2 ">
              <p className= "bg-transparent py-30 px-80"> </p>
               <VidTest /> <p className= "bg-transparent py-5"> </p>
