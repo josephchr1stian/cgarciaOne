@@ -15,6 +15,16 @@ function MyButton() {
       </button>
   )
 }
+//https://snap-engineering-round-git-7b8720-christians-projects-c4c8dbeb.vercel.app/
+function MyDearest() {
+    return (
+        <button className= "bg-black w-40  py-0.5 px-0.5
+      font-semibold  text-white text-center rounded">
+            <a href="//https://snap-engineering-round-git-7b8720-christians-projects-c4c8dbeb.vercel.app/"> LinkedIn</a>
+        </button>
+    )
+}
+
 function Linkdin() {
     return (
         <button className= "bg-black w-40  py-0.5 px-0.5
@@ -30,7 +40,7 @@ export default function Home() {
           <div className="flex items-center flex-col py-2 ">
              <p className= "bg-transparent py-30 px-80"> </p>
               <VidTest /> <p className= "bg-transparent py-5"> </p>
-              < MyButton /> <p className= "bg-transparent py-5"> </p> <Linkdin/>
+              < MyButton /> <p className= "bg-transparent py-5"> </p> <Linkdin/>  <MyDearest/>
           </div>
       </div>
   );
